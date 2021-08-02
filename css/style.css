@@ -1,6 +1,47 @@
-body{
+.index{
     background-image: url(".././images/solarSystem.jpg");
 }
+
+.sun{
+    background-image: url(".././images/solarSystem.jpg");
+}
+
+.mercury{
+    background-image: url(".././images/mercury.jpg");
+}
+
+.venus{
+    background-image: url(".././images/venus.jpg");
+}
+
+.earth{
+    background-image: url(".././images/earth.jpg");
+}
+
+.mars{
+    background-image: url(".././images/mars.jpg");
+}
+
+.jupiter{
+    background-image: url(".././images/jupiter.jpg");
+}
+
+.saturn{
+    background-image: url(".././images/saturn.jpg");
+}
+
+.uranus{
+    background-image: url(".././images/uranus.jpg");
+}
+
+.neptune{
+    background-image: url(".././images/neptune.jpg");
+}
+
+.pluto{
+    background-image: url(".././images/pluto.jpg");
+}
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
