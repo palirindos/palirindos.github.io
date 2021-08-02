@@ -3,7 +3,7 @@
 }
 
 .sun{
-    background-image: url(".././images/solarSystem.jpg");
+    background-image: url(".././images/sun.jpg");
 }
 
 .mercury{
@@ -43,15 +43,31 @@
 }
 
 h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
+    font-family: TeleNeo, Arial, Helvetica, sans-serif;
+    font-style: bold;
     text-align: center;
-    color: rgb(170, 0, 0);
+    font-size: xx-large;
+    color: rgb(225,96,163);
 }
 nav {
-    width: 2%;
     margin: 5px;
+}
+table{
+    border: 2px;
+    border-style: solid;
+}
 
+td{
+    width: 2%;
+    opacity: 0.7;
+}
+
+td:nth-child(odd):hover {
+    opacity: 1;
+}
+
+td:nth-child(even):hover {
+    opacity: 1;
 }
 
 div{
@@ -70,3 +86,22 @@ footer{
     font-style: italic;
     text-align:right;
 }
+
+.unOrderedList{
+    margin: 50px;
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: italic;
+    text-align: left;
+    color: rgb(0, 49, 141);
+}
+
+.dtagBrand{
+    width: 10%;
+    float: left;
+}
+.dtagBrand:hover{
+    border: 6px solid rgb(225,96,163);
+}
+
