@@ -56,9 +56,11 @@ h1{
     font-size: xx-large;
     color: #E20074;
 }
+
 nav {
     margin: 5px;
 }
+
 table{
     border: 2px;
     border-style: solid;
@@ -85,7 +87,7 @@ div{
     text-align: center;
     text-decoration: solid;
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px #000000   
+    text-shadow: 2px 2px #000000;
 }
 
 footer{
@@ -111,6 +113,7 @@ footer{
     width: 10%;
     float: left;
 }
+
 .dtagBrand:hover{
     border: 6px solid #E20074;
 }
